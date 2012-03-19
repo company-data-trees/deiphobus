@@ -1,0 +1,12 @@
+{
+    "name": "deiphobus",
+    "version": "0.0.1",
+    "description": "Apache Cassandra Client derived from Helenus node.js module.",
+    "author": "Justin Bradford <jabradford@gmail.com>",
+    "jars": [
+        "jars/apache-cassandra-thrift-1.0.7.jar",
+        "jars/libthrift-0.6.jar",
+        "jars/uuid-3.3.jar"
+    ],
+    "main": "lib/main.js"
+}
