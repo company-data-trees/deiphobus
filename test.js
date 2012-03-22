@@ -7,6 +7,8 @@ c.use('foo');
 var r = c.cql('select * from users');
 var s = new dei.Selector(c);
 
+var ss = s.splits('users');
+
 // var cr = new dei.Connection({port: 9161});
 // cr.use('Lists');
 
