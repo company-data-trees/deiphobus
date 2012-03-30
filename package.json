@@ -1,8 +1,8 @@
 {
     "name": "deiphobus",
     "version": "0.0.1",
-    "description": "Apache Cassandra client for RingoJS inspired by the Helenus Node.js client and Pelops Java client.",
-    "author": "Justin Bradford <jabradford@gmail.com>",
+    "description": "Apache Cassandra client for RingoJS inspired by the Helenus Node.js and Pelops Java clients.",
+    "author": "Justin Bradford <jb@companydatatrees.com>",
     "jars": [
         "jars/apache-cassandra-1.0.7.jar",
         "jars/apache-cassandra-thrift-1.0.7.jar",
