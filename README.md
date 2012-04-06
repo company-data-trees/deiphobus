@@ -1,6 +1,6 @@
 # deiphobus
 
-[Ringo.JS](http://ringojs.org/) client for [Apache Cassandra](http://cassandra.apache.org/) inspired by the the [Helenus Node.JS](https://github.com/simplereach/helenus) and [Pelops JVM](https://github.com/s7/scale7-pelops) clients.
+[RingoJS](http://ringojs.org/) client for [Apache Cassandra](http://cassandra.apache.org/) inspired by the the [Helenus NodeJS](https://github.com/simplereach/helenus) and [Pelops JVM](https://github.com/s7/scale7-pelops) clients.
 
 ## Status
 
@@ -25,7 +25,7 @@ The Selector object (ala Pelops) is relatively robust, and also provides a Map-R
     var m = new dei.Mutator(c);
     m.put('users', 'bob', { birth_year: 1992 })
 
-    s.get('users', ['alice, bob'], {column: 'birth_year'})
+    s.get('users', ['alice', 'bob'], {column: 'birth_year'})
     [{ key: 'alice', columns: { birth_year: 1987 }},
      { key: 'bob', columns: { birth_year: 1992 }}]
 
