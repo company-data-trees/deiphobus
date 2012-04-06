@@ -25,6 +25,11 @@ The Selector object (ala Pelops) is relatively robust, and also provides a Map-R
     var m = new dei.Mutator(c);
     m.put('users', 'bob', { birth_year: 1992 })
 
+    s.get('users', ['alice, bob'], {column: 'birth_year'})
+    [{ key: 'alice', columns: { birth_year: 1987 }},
+     { key: 'bob', columns: { birth_year: 1992 }}]
+
+
 ## Name
 
 [Deiphobus](http://en.wikipedia.org/wiki/Deiphobus) was a brother of [Cassandra](http://en.wikipedia.org/wiki/Cassandra) and [Helenus](http://en.wikipedia.org/wiki/Helenus).
