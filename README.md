@@ -33,3 +33,7 @@ The Selector object (ala Pelops) is relatively robust, and also provides a Map-R
 ## Name
 
 [Deiphobus](http://en.wikipedia.org/wiki/Deiphobus) was a brother of [Cassandra](http://en.wikipedia.org/wiki/Cassandra) and [Helenus](http://en.wikipedia.org/wiki/Helenus).
+
+## License
+
+This module is under the MIT license, and the included jars are under either Apache License v2 (Cassandra/Thrift) or MIT (UUID).
