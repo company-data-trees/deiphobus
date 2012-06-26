@@ -4,10 +4,13 @@
     "description": "Apache Cassandra client for RingoJS inspired by the Helenus Node.js and Pelops Java clients.",
     "author": "Justin Bradford <jb@companydatatrees.com>",
     "jars": [
-        "jars/apache-cassandra-1.0.7.jar",
-        "jars/apache-cassandra-thrift-1.0.7.jar",
-        "jars/libthrift-0.6.jar",
+        "jars/apache-cassandra-1.1.1.jar",
+        "jars/apache-cassandra-thrift-1.1.1.jar",
+        "jars/libthrift-0.7.0.jar",
+        "jars/jackson-core-asl-1.9.2.jar",
+        "jars/jackson-mapper-asl-1.9.2.jar",
         "jars/uuid-3.3.jar"
     ],
     "main": "lib/main.js"
 }
+
